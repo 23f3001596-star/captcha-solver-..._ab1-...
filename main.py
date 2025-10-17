@@ -131,9 +131,9 @@ def write_code_with_llm():
     ]
 def round1(data):
     files=write_code_with_llm()
-    #create_github_repo(f"{data['task']}_{data['nonce']}")
-    #enable_github_pages(f"{data['task']}_{data['nonce']}")
-    #push_files_to_repo(f"{data['task']}_{data['nonce']}", files, 1)
+    create_github_repo(f"{data['task']}_{data['nonce']}")
+    enable_github_pages(f"{data['task']}_{data['nonce']}")
+    push_files_to_repo(f"{data['task']}_{data['nonce']}", files, 1)
 
 def round2():
     pass
